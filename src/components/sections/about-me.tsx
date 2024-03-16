@@ -44,7 +44,7 @@ const AboutMeSection = () => {
             I began my journey as a web developer in 2023, and since then, I&apos;ve continued to
             grow and evolve as a developer, taking on new challenges and learning the latest
             technologies along the way. Now, I am ready to start building cutting-edge web
-            applications using modern technologies such as Next.js, TypeScript, Nestjs, Tailwindcss,
+            applications using modern technologies such as Next.js, TypeScript, Tailwindcss,
             Postgres and much more.
           </Typography>
           <Typography>
@@ -83,7 +83,7 @@ const AboutMeSection = () => {
             </ul>
           </div>
           <Typography>
-            One last thing, I&apos;m available for freelance work, so feel free to reach out and say
+            One last thing, I&apos;m available for work and open to remote or relocation opportunities! So feel free to reach out and say
             hello! I promise I don&apos;t bite 😉
           </Typography>
         </div>
