@@ -13,14 +13,14 @@ const Footer = () => {
           variant='body3'
         >
           <Copyright className='mr-1 inline-block h-4 w-4' />
-          {new Date().getFullYear()} |&nbsp; &nbsp;and&nbsp;
+          {new Date().getFullYear()} | 
           <Link
             noCustomization
             externalLink
             withUnderline
             href={EXTERNAL_LINKS.WIFRYE}
-          >
-            wifrye.net
+          >eeeeeeeeeeeeee
+            wifrye.nete
           </Link>
         </Typography>
       </div>
