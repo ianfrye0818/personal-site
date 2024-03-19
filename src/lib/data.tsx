@@ -14,7 +14,10 @@ import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
 import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
 import LogoLinkedIn from '/public/images/logos/icon-linkedin.svg';
 import LogoPrisma from '/public/images/logos/icon-prisma.svg';
+import LogoDrizzle from 'public/images/logos/logo-drizzle.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
+import LogoLinux from '/public/images/logos/logo-linux.svg';
+import LogoDocker from '/public/images/logos/logo-docker.svg';
 import LogoFireBase from '/public/images/logos/icon-firebase.svg';
 import LogoGithub from '/public/images/logos/icon-github.svg';
 import LogoSpectrum from '/public/images/logos/logo-spectrum.svg';
@@ -114,10 +117,11 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://tailwindcss.com/',
   },
   {
-    label: 'Git',
-    logo: LogoGit,
-    url: 'https://git-scm.com/',
+    label: 'Drizzle',
+    logo: LogoDrizzle,
+    url: 'https://drizzle.dev/',
   },
+
   {
     label: 'Prisma',
     logo: LogoPrisma,
@@ -129,9 +133,24 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://firebase.google.com/',
   },
   {
+    label: 'Git',
+    logo: LogoGit,
+    url: 'https://git-scm.com/',
+  },
+  {
     label: 'GitHub',
     logo: LogoGithub,
     url: 'https://github.com',
+  },
+  {
+    label: 'Linux',
+    logo: LogoLinux,
+    url: 'https://www.linux.org/',
+  },
+  {
+    label: 'Docker',
+    logo: LogoDocker,
+    url: 'https://www.docker.com/',
   },
 ];
 
