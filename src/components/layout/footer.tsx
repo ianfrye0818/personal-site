@@ -1,8 +1,6 @@
 import { Copyright } from 'lucide-react';
 
 import Typography from '@/components/general/typography';
-import Link from '@/components/navigation/link';
-import { EXTERNAL_LINKS } from '@/lib/data';
 
 const Footer = () => {
   return (
@@ -13,15 +11,7 @@ const Footer = () => {
           variant='body3'
         >
           <Copyright className='mr-1 inline-block h-4 w-4' />
-          {new Date().getFullYear()} | 
-          <Link
-            noCustomization
-            externalLink
-            withUnderline
-            href={EXTERNAL_LINKS.WIFRYE}
-          
-            wifrye.net
-          </Link>
+          {new Date().getFullYear()} | wifrye.net
         </Typography>
       </div>
     </footer>
