@@ -19,8 +19,8 @@ const Footer = () => {
             externalLink
             withUnderline
             href={EXTERNAL_LINKS.WIFRYE}
-          >eeeeeeeeeeeeee
-            wifrye.nete
+          
+            wifrye.net
           </Link>
         </Typography>
       </div>
