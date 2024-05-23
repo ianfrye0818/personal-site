@@ -1,5 +1,6 @@
 import { Inter } from 'next/font/google';
 import { Metadata } from 'next';
+import { Analytics } from '@vercel/analytics/react';
 
 import './globals.css';
 import Header from '@/components/layout/header';
@@ -41,7 +42,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={`${inter.className} bg-gray text-gray-600 antialiased`}>
         <Providers>
           <Header />
-          <main className='flex min-h-screen w-full flex-col'>{children}</main>
+          <main className='flex min-h-screen w-full flex-col'>
+            {children}
+            <Analytics />
+          </main>
           <Footer />
         </Providers>
       </body>
