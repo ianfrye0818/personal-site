@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google';
 import { Metadata } from 'next';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 import './globals.css';
 import Header from '@/components/layout/header';
@@ -45,6 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <main className='flex min-h-screen w-full flex-col'>
             {children}
             <Analytics />
+            <SpeedInsights />
           </main>
           <Footer />
         </Providers>
