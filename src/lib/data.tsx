@@ -161,7 +161,7 @@ export const PROJECTS: ProjectDetails[] = [
     name: 'Pulse Vote',
     description:
       'A real-time graphical interface for users to vote. Great for presentations, meetings, or just for fun.',
-    previewImage: ProjectProsperPoint,
+    previewImage: ProjectPulseVote,
     technologies: ['React', 'Typescript', 'Tailwindcss', 'ShadCnUI', 'Firebase', 'Vercel', 'Clerk'],
     url: 'https://pulse-vote.com',
   },
