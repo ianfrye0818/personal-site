@@ -27,6 +27,7 @@ import ProjectQuizzical from '/public/images/project-quizzical.png';
 import ProjectAbodeHunt from '/public/images/project-abodehunt.png';
 import ProjectVanLife from '/public/images/project-vanlife.png';
 import ProjectProsperPoint from 'public/images/project-prosperPoint.png';
+import ProjectPulseVote from '/public/images/project-pulseVote.png';
 
 import { ExperienceDetails, ProjectDetails, TechDetails, TestimonialDetails } from '@/lib/types';
 
@@ -156,6 +157,14 @@ export const TECHNOLOGIES: TechDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
+  {
+    name: 'Pulse Vote',
+    description:
+      'A real-time graphical interface for users to vote. Great for presentations, meetings, or just for fun.',
+    previewImage: ProjectProsperPoint,
+    technologies: ['React', 'Typescript', 'Tailwindcss', 'ShadCnUI', 'Firebase', 'Vercel', 'Clerk'],
+    url: 'https://pulse-vote.com',
+  },
   {
     name: 'Prosper Point',
     description:
