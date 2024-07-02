@@ -26,7 +26,6 @@ import LogoSheetz from '/public/images/logos/logo-sheetz.svg';
 import ProjectQuizzical from '/public/images/project-quizzical.png';
 import ProjectAbodeHunt from '/public/images/project-abodehunt.png';
 import ProjectVanLife from '/public/images/project-vanlife.png';
-import ProjectProsperPoint from 'public/images/project-prosperPoint.png';
 import ProjectPulseVote from '/public/images/project-pulseVote.png';
 
 import { ExperienceDetails, ProjectDetails, TechDetails, TestimonialDetails } from '@/lib/types';
@@ -164,14 +163,6 @@ export const PROJECTS: ProjectDetails[] = [
     previewImage: ProjectPulseVote,
     technologies: ['React', 'Typescript', 'Tailwindcss', 'ShadCnUI', 'Firebase', 'Vercel', 'Clerk'],
     url: 'https://pulse-vote.com',
-  },
-  {
-    name: 'Prosper Point',
-    description:
-      'A banking aggrigation app where users can view recent transactions, their current balance, and transfer money between accounts.',
-    previewImage: ProjectProsperPoint,
-    technologies: ['React', 'Typescript', 'Tailwindcss', 'ShadCnUI', 'Appwrite', 'Dwolla', 'Plaid'],
-    url: 'https://prosper-point.wifrye.net',
   },
   {
     name: 'Abode Hunt',
