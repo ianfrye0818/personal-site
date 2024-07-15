@@ -27,6 +27,7 @@ import ProjectQuizzical from '/public/images/project-quizzical.png';
 import ProjectAbodeHunt from '/public/images/project-abodehunt.png';
 import ProjectVanLife from '/public/images/project-vanlife.png';
 import ProjectPulseVote from '/public/images/project-pulseVote.png';
+import ProjectPraisePal from '/public/images/project-praisePal.png';
 
 import { ExperienceDetails, ProjectDetails, TechDetails, TestimonialDetails } from '@/lib/types';
 
@@ -156,6 +157,23 @@ export const TECHNOLOGIES: TechDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
+  {
+    name: 'Praise Pal',
+    description:
+      'This is a passion project of mine. It is a platform for sending and receiving priases and kudos between employees in a company. Long term goals are to provide a platform for companies to track and reward employees for their hard work and be a one-stop-shop for everything employee engagement.',
+    previewImage: ProjectPraisePal,
+    technologies: [
+      'React',
+      'Typescript',
+      'Tailwindcss',
+      'ShadCnUI',
+      'Postgres',
+      'NestJS',
+      'Tanstack Router',
+      'Tanstack Query',
+    ],
+    url: 'https://praise-pal.com',
+  },
   {
     name: 'Pulse Vote',
     description:
