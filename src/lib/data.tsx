@@ -19,6 +19,9 @@ import LogoGit from '/public/images/logos/icon-git.svg';
 import LogoLinux from '/public/images/logos/logo-linux.svg';
 import LogoDocker from '/public/images/logos/logo-docker.svg';
 import LogoFireBase from '/public/images/logos/icon-firebase.svg';
+import LogoNestJS from '/public/images/logos/icon-nest.svg';
+import LogoFlutter from '/public/images/logos/icon-flutter.svg';
+import LogoDart from '/public/images/logos/icon-dart.svg';
 import LogoGithub from '/public/images/logos/icon-github.svg';
 import LogoSpectrum from '/public/images/logos/logo-spectrum.svg';
 import LogoSheetz from '/public/images/logos/logo-sheetz.svg';
@@ -86,6 +89,11 @@ export const TECHNOLOGIES: TechDetails[] = [
     url: 'https://react.dev/',
   },
   {
+    label: 'Tailwindcss',
+    logo: LogoTailwindcss,
+    url: 'https://tailwindcss.com/',
+  },
+  {
     label: 'Next.js',
     logo: LogoNextjs,
     url: 'https://nextjs.org/',
@@ -94,6 +102,11 @@ export const TECHNOLOGIES: TechDetails[] = [
     label: 'Node.js',
     logo: LogoNodejs,
     url: 'https://nodejs.org/en',
+  },
+  {
+    label: 'NestJs',
+    logo: LogoNestJS,
+    url: 'https://nestjs.com/',
   },
   {
     label: 'Express.js',
@@ -114,20 +127,14 @@ export const TECHNOLOGIES: TechDetails[] = [
   },
 
   {
-    label: 'Tailwindcss',
-    logo: LogoTailwindcss,
-    url: 'https://tailwindcss.com/',
-  },
-  {
-    label: 'Drizzle',
-    logo: LogoDrizzle,
-    url: 'https://drizzle.dev/',
-  },
-
-  {
     label: 'Prisma',
     logo: LogoPrisma,
     url: 'https://www.prisma.io/',
+  },
+  {
+    label: 'Drizzle ORM',
+    logo: LogoDrizzle,
+    url: 'https://drizzle.com/',
   },
   {
     label: 'Firebase',
@@ -154,13 +161,23 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoDocker,
     url: 'https://www.docker.com/',
   },
+  {
+    label: 'Dart',
+    logo: LogoDart,
+    url: 'https://dart.dev/',
+  },
+  {
+    label: 'Flutter',
+    logo: LogoFlutter,
+    url: 'https://flutter.dev/',
+  },
 ];
 
 export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Praise Pal',
     description:
-      'This is a passion project of mine. It is a platform for sending and receiving priases and kudos between employees in a company. Long term goals are to provide a platform for companies to track and reward employees for their hard work and be a one-stop-shop for everything employee engagement.',
+      'This is a passion project of mine. It is a platform for sending and receiving praises and kudos between employees in a company. Long term goals are to provide a platform for companies to track and reward employees for their hard work and be a one-stop-shop for everything employee engagement.',
     previewImage: ProjectPraisePal,
     technologies: [
       'React',

@@ -35,17 +35,18 @@ const AboutMeSection = () => {
         <div className='flex max-w-xl flex-col gap-6'>
           <Typography variant='h3'>Curious about me? Here you have it:</Typography>
           <Typography>
-            I&apos;m a passionate Web Developer, who specializes in full stack development (React,
-            NodeJS, and NextJS). I am enthusiastic about bringing the technical and visual aspects
-            of digital products to life. User experience, pixel perfect design, and writing clear,
-            readable, highly performant code matters to me.
+            I&apos;m a passionate Web Developer who specializes in full stack development using
+            technologies like React, NodeJS, Express, and NextJS. I thrive on bringing the technical
+            and visual aspects of digital products to life, with a strong focus on user experience,
+            pixel-perfect design, and writing clear, readable, highly performant code.
           </Typography>
           <Typography>
-            I began my journey as a web developer in 2023, and since then, I&apos;ve continued to
-            grow and evolve as a developer, taking on new challenges and learning the latest
-            technologies along the way. Now, I am ready to start building cutting-edge web
-            applications using modern technologies such as Next.js, TypeScript, Tailwindcss,
-            Postgres and much more.
+            Since beginning my journey as a web developer in 2023, I have grown and evolved by
+            taking on new challenges and learning the latest technologies. I&apos;ve built several
+            full stack projects with real-world applications, including a kudo sharing app for
+            workplaces and a real-time polling app for presentations and general use. I&apos;m eager
+            to create more cutting-edge web applications using modern technologies such as Next.js,
+            TypeScript, TailwindCSS, PostgreSQL, and more.
           </Typography>
           <Typography>
             I am very much a progressive thinker and enjoy working on products end to end, from
@@ -58,11 +59,11 @@ const AboutMeSection = () => {
               noCustomization
               externalLink
               withUnderline
-              href={EXTERNAL_LINKS.TWITTER}
+              href={EXTERNAL_LINKS.LINKEDIN}
             >
-              Twitter
+              Linked In
             </Link>{' '}
-            where I share tech-related bites and build in public, or you can follow me on{' '}
+            for tech-related insights and to see my projects in progress, or you can follow me on{' '}
             <Link
               noCustomization
               externalLink
@@ -83,8 +84,8 @@ const AboutMeSection = () => {
             </ul>
           </div>
           <Typography>
-            One last thing, I&apos;m available for work and open to remote or relocation opportunities! So feel free to reach out and say
-            hello! I promise I don&apos;t bite 😉
+            I&apos;m available for work and open to remote or relocation opportunities! Feel free to
+            reach out and say hello—I promise I don&apos;t bite 😉
           </Typography>
         </div>
       </div>
