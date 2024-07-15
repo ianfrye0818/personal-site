@@ -12,7 +12,6 @@ import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
 import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
 import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
 import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
-import LogoLinkedIn from '/public/images/logos/icon-linkedin.svg';
 import LogoPrisma from '/public/images/logos/icon-prisma.svg';
 import LogoDrizzle from 'public/images/logos/logo-drizzle.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
@@ -134,7 +133,7 @@ export const TECHNOLOGIES: TechDetails[] = [
   {
     label: 'Drizzle ORM',
     logo: LogoDrizzle,
-    url: 'https://drizzle.com/',
+    url: 'https://orm.drizzle.team/',
   },
   {
     label: 'Firebase',
