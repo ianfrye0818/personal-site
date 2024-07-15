@@ -12,8 +12,8 @@ import Container from '@/components/layout/container';
 import useWindowSize from '@/hooks/use-window-size';
 import { copyTextToClipboard } from '@/lib/utils';
 
-let email = 'ian_frye@outlook.com';
-let phone = '336-830-7157';
+let email = 'ian@ianfrye.dev';
+let phone = '336-618-7663';
 
 type CopyValue = 'email' | 'phone';
 
@@ -59,7 +59,7 @@ const ContactSection = () => {
           <div className='flex items-center gap-4 md:gap-5'>
             <Mail className='h-6 w-6 md:h-8 md:w-8' />
             <Link href={`mailto:${email}`}>
-            <Typography variant='h2'>{email}</Typography>
+              <Typography variant='h2'>{email}</Typography>
             </Link>
             <IconButton
               size={width && width < 768 ? 'md' : 'lg'}
@@ -73,7 +73,7 @@ const ContactSection = () => {
           <div className='flex items-center gap-4 md:gap-5'>
             <Phone className='h-6 w-6 md:h-8 md:w-8' />
             <Link href={`tel:${phone.replace(' ', '')}`}>
-            <Typography variant='h2'>{phone}</Typography>
+              <Typography variant='h2'>{phone}</Typography>
             </Link>
             <IconButton
               size={width && width < 768 ? 'md' : 'lg'}
