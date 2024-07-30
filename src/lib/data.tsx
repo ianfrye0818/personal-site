@@ -189,6 +189,7 @@ export const PROJECTS: ProjectDetails[] = [
       'Tanstack Query',
     ],
     url: 'https://praise-pal.com',
+    videoUrl: 'https://youtu.be/72P5Z6azshk?si=CZVnaConIEDOl_7m',
   },
   {
     name: 'Pulse Vote',
@@ -197,6 +198,7 @@ export const PROJECTS: ProjectDetails[] = [
     previewImage: ProjectPulseVote,
     technologies: ['React', 'Typescript', 'Tailwindcss', 'ShadCnUI', 'Firebase', 'Vercel', 'Clerk'],
     url: 'https://pulse-vote.com',
+    videoUrl: 'https://youtu.be/yrpDCgRteq0?si=sUL_tLhupU4XezOv',
   },
   {
     name: 'Abode Hunt',

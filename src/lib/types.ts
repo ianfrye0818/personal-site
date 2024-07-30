@@ -22,6 +22,7 @@ export type ProjectDetails = {
   name: string;
   description: string;
   url: string;
+  videoUrl?: string;
   previewImage: string | StaticImageData;
   technologies: string[];
 };

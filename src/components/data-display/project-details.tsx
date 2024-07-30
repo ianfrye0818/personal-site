@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { ExternalLink } from 'lucide-react';
+import { ExternalLink, VideoIcon } from 'lucide-react';
 
 import { ProjectDetails as ProjectDetailsType } from '@/lib/types';
 import { mergeClasses } from '@/lib/utils';
@@ -17,11 +17,12 @@ const ProjectDetails = ({
   description,
   technologies,
   url,
+  videoUrl,
   previewImage,
   layoutType = 'default',
 }: ProjectDetailsProps) => {
   return (
-    <Card className="mx-auto flex w-full max-w-6xl flex-col md:flex-row">
+    <Card className='mx-auto flex w-full max-w-6xl flex-col md:flex-row'>
       {/* Image */}
       <div
         className={mergeClasses(
@@ -31,11 +32,15 @@ const ProjectDetails = ({
             : 'md:order-last md:rounded-r-xl md:border-l'
         )}
       >
-        <Link noCustomization href={url} externalLink>
+        <Link
+          noCustomization
+          href={url}
+          externalLink
+        >
           <Image
             src={previewImage}
             alt={`${name} preview`}
-            className="rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105"
+            className='rounded-xl shadow-lg transition-transform duration-500 md:hover:scale-105'
             style={{ objectFit: 'cover' }}
           />
         </Link>
@@ -48,23 +53,40 @@ const ProjectDetails = ({
           layoutType === 'default' ? '' : 'md:order-first'
         )}
       >
-        <Typography variant="subtitle" className="font-semibold text-gray-900">
+        <Typography
+          variant='subtitle'
+          className='font-semibold text-gray-900'
+        >
           {name}
         </Typography>
         <Typography>{description}</Typography>
-        <div className="flex flex-wrap gap-2">
+        <div className='flex flex-wrap gap-2'>
           {technologies?.map((technology, index) => (
-            <Tag key={index} label={technology} />
+            <Tag
+              key={index}
+              label={technology}
+            />
           ))}
         </div>
-        <Link
-          href={url}
-          noCustomization
-          className="self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500"
-          externalLink
-        >
-          <ExternalLink />
-        </Link>
+        <div className='flex items-center gap-3'>
+          <Link
+            href={url}
+            noCustomization
+            className='self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500'
+            externalLink
+          >
+            <ExternalLink />
+          </Link>
+          {videoUrl && (
+            <Link
+              href={videoUrl}
+              className='self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500'
+              externalLink
+            >
+              <VideoIcon />
+            </Link>
+          )}
+        </div>
       </div>
     </Card>
   );
