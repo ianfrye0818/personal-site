@@ -34,7 +34,7 @@ const ProjectDetails = ({
       >
         <Link
           noCustomization
-          href={url}
+          href={url ? url : '#'}
           externalLink
         >
           <Image
@@ -69,14 +69,16 @@ const ProjectDetails = ({
           ))}
         </div>
         <div className='flex items-center gap-3'>
-          <Link
-            href={url}
-            noCustomization
-            className='self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500'
-            externalLink
-          >
-            <ExternalLink />
-          </Link>
+          {url && (
+            <Link
+              href={url}
+              noCustomization
+              className='self-start rounded-lg p-1.5 hover:bg-gray-50 [&_svg]:stroke-gray-500'
+              externalLink
+            >
+              <ExternalLink />
+            </Link>
+          )}
           {videoUrl && (
             <Link
               href={videoUrl}

@@ -30,6 +30,7 @@ import ProjectAbodeHunt from '/public/images/project-abodehunt.png';
 import ProjectVanLife from '/public/images/project-vanlife.png';
 import ProjectPulseVote from '/public/images/project-pulseVote.png';
 import ProjectPraisePal from '/public/images/project-praisePal.png';
+import ProjectResumeBuilder from '/public/images/project-resume-builder.png';
 
 import { ExperienceDetails, ProjectDetails, TechDetails, TestimonialDetails } from '@/lib/types';
 
@@ -190,6 +191,14 @@ export const PROJECTS: ProjectDetails[] = [
     ],
     url: 'https://praise-pal.com',
     videoUrl: 'https://youtu.be/72P5Z6azshk?si=CZVnaConIEDOl_7m',
+  },
+  {
+    name: 'Resume Builder',
+    description:
+      'A platform for formatting resumes into a standard format. It also enhances and optimizes the resume for the job you are applying for.',
+    previewImage: ProjectResumeBuilder,
+    technologies: ['React', 'Typescript', 'Tailwindcss', 'ShadCnUI', 'Google Gemini', 'Vercel'],
+    videoUrl: 'https://youtu.be/K5TW1nsONyo',
   },
   {
     name: 'Pulse Vote',
