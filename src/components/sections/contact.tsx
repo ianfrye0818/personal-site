@@ -11,14 +11,14 @@ import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
 import useWindowSize from '@/hooks/use-window-size';
 import { copyTextToClipboard } from '@/lib/utils';
-
-let email = 'ian@ianfrye.dev';
-let phone = '336-618-7663';
+import { CONTACT_INFO } from '@/lib/data';
 
 type CopyValue = 'email' | 'phone';
 
 const ContactSection = () => {
   const { width } = useWindowSize();
+  const { email, phone } = CONTACT_INFO;
+
   const [isCopied, setIsCopied] = useState(false);
   const [copiedValueType, setCopiedValueType] = useState<CopyValue | null>(null);
 

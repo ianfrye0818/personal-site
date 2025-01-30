@@ -77,7 +77,7 @@ const AboutMeSection = () => {
           <Typography>Finally, some quick bits about me.</Typography>
           <div className='flex flex-col gap-2 md:flex-row md:gap-6'>
             <ul className='flex list-inside list-disc flex-col gap-2'>
-              <Typography component='li'>Full time freelancer</Typography>
+              <Typography component='li'>Full Stack Web Developer</Typography>
             </ul>
             <ul className='flex list-inside list-disc flex-col gap-2'>
               <Typography component='li'>Avid learner</Typography>

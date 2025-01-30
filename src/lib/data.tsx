@@ -24,6 +24,7 @@ import LogoDart from '/public/images/logos/icon-dart.svg';
 import LogoGithub from '/public/images/logos/icon-github.svg';
 import LogoSpectrum from '/public/images/logos/logo-spectrum.svg';
 import LogoSheetz from '/public/images/logos/logo-sheetz.svg';
+import QualityOilLogo from '/public/images/logos/quality_oil_logo.png';
 
 import ProjectQuizzical from '/public/images/project-quizzical.png';
 import ProjectAbodeHunt from '/public/images/project-abodehunt.png';
@@ -32,7 +33,13 @@ import ProjectPulseVote from '/public/images/project-pulseVote.png';
 import ProjectPraisePal from '/public/images/project-praisePal.png';
 import ProjectResumeBuilder from '/public/images/project-resume-builder.png';
 
-import { ExperienceDetails, ProjectDetails, TechDetails, TestimonialDetails } from '@/lib/types';
+import {
+  ContactInfo,
+  ExperienceDetails,
+  ProjectDetails,
+  TechDetails,
+  TestimonialDetails,
+} from '@/lib/types';
 
 export const EXTERNAL_LINKS = {
   GITHUB: 'mhttps://github.com/ianfrye0818',
@@ -189,7 +196,6 @@ export const PROJECTS: ProjectDetails[] = [
       'Tanstack Router',
       'Tanstack Query',
     ],
-    url: 'https://praise-pal.com',
     videoUrl: 'https://youtu.be/72P5Z6azshk?si=CZVnaConIEDOl_7m',
   },
   {
@@ -253,13 +259,33 @@ export const PROJECTS: ProjectDetails[] = [
 
 export const EXPERIENCES: ExperienceDetails[] = [
   {
+    logo: QualityOilLogo,
+    darkModeLogo: QualityOilLogo,
+    logoAlt: 'Quality Oil Company',
+    position: 'Software Developer / Programming Analyst',
+    startDate: new Date('2024-09-30'),
+    currentlyWorkHere: true,
+    summary:
+      'I am a passionate full-stack software developer with extensive experience building robust web applications and managing full project lifecycles. I’ve worked on key projects that optimize business processes for both internal teams and clients. My technical expertise spans across various tech stacks and databases, with a focus on delivering seamless and efficient solutions. I also contribute to IT administration and data-driven reporting.',
+
+    bulletPoints: [
+      'Lead development of three major web applications: a maintenance ticketing system, a marketing CMS, and a fleet CRM.',
+      'Full-stack development using NestJS, React, Postgres, MSSQL, MySQL, and Prisma ORM.',
+      'Manage end-to-end project delivery, including requirements gathering, design, development, and deployment.',
+      'Provide IT support, troubleshooting, and device setup for internal teams.',
+      'Develop automated reports and dashboards using T-SQL and MSSQL to drive data-informed decisions.',
+    ],
+  },
+  {
     logo: LogoTheResource,
     darkModeLogo: LogoTheResourceDark,
     logoAlt: 'The Resource',
     position: 'Recruiting and Process Specialist',
     startDate: new Date('2022-07-01'),
-    currentlyWorkHere: true,
-    summary: [
+    endDate: new Date('2025-09-30'),
+    currentlyWorkHere: false,
+    summary: '',
+    bulletPoints: [
       'Serve as a direct hire recruiter placing candidates bringing in over $50,000 in revenue for the company per year.',
       'Create comprehensive documentation including training material as well as contributed to an overhaul of the recruiting process in our CRM.',
       'Create and test solutions for staffing software with integrations with Indeed and Linked in to get the best technologies for the best value.',
@@ -271,7 +297,8 @@ export const EXPERIENCES: ExperienceDetails[] = [
     position: 'Low Voltage Technician',
     startDate: new Date('2021-09-01'),
     endDate: new Date('2022-07-01'),
-    summary: [
+    summary: '',
+    bulletPoints: [
       'Achieved less than 5% repeat rate within my first 3 months of employment.',
       'Averaged over 95% productivity - highest on my team of 10 technicians.',
       'Completed NCTI BroadBand Certified Technician within 6 months of hire.',
@@ -283,7 +310,9 @@ export const EXPERIENCES: ExperienceDetails[] = [
     position: 'Kitchen Manager | HVAC Technician',
     startDate: new Date('2014-09-01'),
     endDate: new Date('2021-09-01'),
-    summary: [
+    summary: '',
+
+    bulletPoints: [
       'Managed a team of 20+ employees and consistently exceeded sales goals.',
       'Completed HVAC training and certification.',
       'Managed the installation of new equipment and the maintenance of current equipment.',
@@ -291,3 +320,10 @@ export const EXPERIENCES: ExperienceDetails[] = [
   },
 ];
 export const TESTIMONIALS: TestimonialDetails[] = [];
+
+export const CONTACT_INFO: ContactInfo = {
+  email: 'ianfrye.dev@gmail.com',
+  phone: '336-618-7663',
+  city: 'Winston Salem',
+  state: 'North Carolina',
+};
