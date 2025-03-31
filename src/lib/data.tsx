@@ -1,23 +1,21 @@
 import { Github, Twitter, Linkedin } from 'lucide-react';
 
-import LogoJavascript from '/public/images/logos/icon-javascript.svg';
 import LogoTheResource from '/public/images/logos/logo-the_resource.png';
 import LogoTheResourceDark from '/public/images/logos/logo-the_resource_dark.png';
 import LogoTypescript from '/public/images/logos/icon-typescript.svg';
 import LogoReact from '/public/images/logos/icon-react.svg';
-import LogoNextjs from '/public/images/logos/icon-nextjs.svg';
 import LogoNodejs from '/public/images/logos/icon-nodejs.svg';
-import LogoExpress from '/public/images/logos/icon-express.svg';
-import LogoExpressLight from '/public/images/logos/icon-express-light.svg';
+import LogoJava from '/public/images/logos/icon-java.svg';
+import LogoSpringBoot from '/public/images/logos/logo-springboot.svg';
+import LogoDotNet from '/public/images/logos/logo-dotnet.svg';
+import LogoCSharp from '/public/images/logos/logo-csharp.svg';
 import LogoPostgreSQL from '/public/images/logos/icon-postgresql.svg';
 import LogoMongoDB from '/public/images/logos/icon-mongodb.svg';
 import LogoTailwindcss from '/public/images/logos/icon-tailwindcss.svg';
 import LogoPrisma from '/public/images/logos/icon-prisma.svg';
-import LogoDrizzle from 'public/images/logos/logo-drizzle.svg';
 import LogoGit from '/public/images/logos/icon-git.svg';
 import LogoLinux from '/public/images/logos/logo-linux.svg';
 import LogoDocker from '/public/images/logos/logo-docker.svg';
-import LogoFireBase from '/public/images/logos/icon-firebase.svg';
 import LogoNestJS from '/public/images/logos/icon-nest.svg';
 import LogoFlutter from '/public/images/logos/icon-flutter.svg';
 import LogoDart from '/public/images/logos/icon-dart.svg';
@@ -25,7 +23,6 @@ import LogoGithub from '/public/images/logos/icon-github.svg';
 import LogoSpectrum from '/public/images/logos/logo-spectrum.svg';
 import LogoSheetz from '/public/images/logos/logo-sheetz.svg';
 import QualityOilLogo from '/public/images/logos/quality_oil_logo.png';
-
 import ProjectQuizzical from '/public/images/project-quizzical.png';
 import ProjectAbodeHunt from '/public/images/project-abodehunt.png';
 import ProjectVanLife from '/public/images/project-vanlife.png';
@@ -81,11 +78,6 @@ export const SOCIAL_LINKS = [
 
 export const TECHNOLOGIES: TechDetails[] = [
   {
-    label: 'Javascript',
-    logo: LogoJavascript,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-  },
-  {
     label: 'Typescript',
     logo: LogoTypescript,
     url: 'https://www.typescriptlang.org/',
@@ -100,11 +92,7 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoTailwindcss,
     url: 'https://tailwindcss.com/',
   },
-  {
-    label: 'Next.js',
-    logo: LogoNextjs,
-    url: 'https://nextjs.org/',
-  },
+
   {
     label: 'Node.js',
     logo: LogoNodejs,
@@ -114,12 +102,6 @@ export const TECHNOLOGIES: TechDetails[] = [
     label: 'NestJs',
     logo: LogoNestJS,
     url: 'https://nestjs.com/',
-  },
-  {
-    label: 'Express.js',
-    logo: LogoExpress,
-    darkModeLogo: LogoExpressLight,
-    url: 'https://expressjs.com/',
   },
 
   {
@@ -138,16 +120,7 @@ export const TECHNOLOGIES: TechDetails[] = [
     logo: LogoPrisma,
     url: 'https://www.prisma.io/',
   },
-  {
-    label: 'Drizzle ORM',
-    logo: LogoDrizzle,
-    url: 'https://orm.drizzle.team/',
-  },
-  {
-    label: 'Firebase',
-    logo: LogoFireBase,
-    url: 'https://firebase.google.com/',
-  },
+
   {
     label: 'Git',
     logo: LogoGit,
@@ -177,6 +150,26 @@ export const TECHNOLOGIES: TechDetails[] = [
     label: 'Flutter',
     logo: LogoFlutter,
     url: 'https://flutter.dev/',
+  },
+  {
+    label: 'Spring Boot',
+    logo: LogoSpringBoot,
+    url: 'https://spring.io/projects/spring-boot',
+  },
+  {
+    label: 'Java',
+    logo: LogoJava,
+    url: 'https://www.java.com/',
+  },
+  {
+    label: 'C#',
+    logo: LogoCSharp,
+    url: 'https://docs.microsoft.com/en-us/dotnet/csharp/',
+  },
+  {
+    label: '.NET',
+    logo: LogoDotNet,
+    url: 'https://dotnet.microsoft.com/',
   },
 ];
 
@@ -262,33 +255,34 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logo: QualityOilLogo,
     darkModeLogo: QualityOilLogo,
     logoAlt: 'Quality Oil Company',
-    position: 'Software Developer / Programming Analyst',
+    position: 'Full Stack Developer',
     startDate: new Date('2024-09-30'),
     currentlyWorkHere: true,
     summary:
       'I am a passionate full-stack software developer with extensive experience building robust web applications and managing full project lifecycles. I’ve worked on key projects that optimize business processes for both internal teams and clients. My technical expertise spans across various tech stacks and databases, with a focus on delivering seamless and efficient solutions. I also contribute to IT administration and data-driven reporting.',
 
     bulletPoints: [
-      'Lead development of three major web applications: a maintenance ticketing system, a marketing CMS, and a fleet CRM.',
-      'Full-stack development using NestJS, React, Postgres, MSSQL, MySQL, and Prisma ORM.',
-      'Manage end-to-end project delivery, including requirements gathering, design, development, and deployment.',
-      'Provide IT support, troubleshooting, and device setup for internal teams.',
-      'Develop automated reports and dashboards using T-SQL and MSSQL to drive data-informed decisions.',
+      'Lead development and project management for CRM, ERP, and Ticketing Systems. ',
+      'Work closely with executives and stakeholders to deliver high-quality software solutions.',
+      'Conduct weekly stakeholder meetings to present progress updates and design changes.',
+      'Utilize SQL Server, Postgres, and MySQL for business intelligence and executive reporting',
     ],
   },
   {
     logo: LogoTheResource,
     darkModeLogo: LogoTheResourceDark,
     logoAlt: 'The Resource',
-    position: 'Recruiting and Process Specialist',
+    position: 'IT Admin/Recruiter',
     startDate: new Date('2022-07-01'),
     endDate: new Date('2025-09-30'),
     currentlyWorkHere: false,
     summary: '',
     bulletPoints: [
-      'Serve as a direct hire recruiter placing candidates bringing in over $50,000 in revenue for the company per year.',
-      'Create comprehensive documentation including training material as well as contributed to an overhaul of the recruiting process in our CRM.',
-      'Create and test solutions for staffing software with integrations with Indeed and Linked in to get the best technologies for the best value.',
+      'Successfully matched candidates with client job requirements, enhancing hiring outcomes.',
+      'Streamlined onboarding processes and maintained documentation for new hires.',
+      'Fostered strong client and candidate relationships to enhance collaboration and trust.',
+      'Identified process gaps and implemented innovative solutions to improve operational efficiency.',
+      'Provided IT support and developed strategies to align technology with business objectives',
     ],
   },
   {
@@ -299,23 +293,40 @@ export const EXPERIENCES: ExperienceDetails[] = [
     endDate: new Date('2022-07-01'),
     summary: '',
     bulletPoints: [
-      'Achieved less than 5% repeat rate within my first 3 months of employment.',
-      'Averaged over 95% productivity - highest on my team of 10 technicians.',
-      'Completed NCTI BroadBand Certified Technician within 6 months of hire.',
+      'Installed and maintained networking and communication systems, ensuring reliable connectivity.',
+      'Delivered exceptional customer service and resolved issues promptly.',
+      'Analyzed and troubleshot broadband network problems, optimizing performance and functionality.',
+      'Adhered to safety protocols and engaged in continuous learning of emerging technologies.',
     ],
   },
   {
     logo: LogoSheetz,
     logoAlt: 'Sheetz',
-    position: 'Kitchen Manager | HVAC Technician',
-    startDate: new Date('2014-09-01'),
+    position: 'HVAC Technician',
+    startDate: new Date('2020-07-01'),
     endDate: new Date('2021-09-01'),
+    summary: '',
+    bulletPoints: [
+      'Diagnosed and repaired HVAC and refrigeration systems, optimizing costs and resources.',
+      'Communicated effectively with management regarding equipment status and repairs.',
+      'Managed inventory to ensure parts availability and performed regular equipment inspections.',
+      'Achieved 608 Universal Certification for compliance with refrigerant regulations.',
+    ],
+  },
+  {
+    logo: LogoSheetz,
+    logoAlt: 'Sheetz',
+    position: 'Kitchen Manager',
+    startDate: new Date('2014-09-01'),
+    endDate: new Date('2020-07-01'),
     summary: '',
 
     bulletPoints: [
-      'Managed a team of 20+ employees and consistently exceeded sales goals.',
-      'Completed HVAC training and certification.',
-      'Managed the installation of new equipment and the maintenance of current equipment.',
+      'Led recruitment and training of new staff, enhancing team integration and performance.',
+      'Managed a diverse team of 20-30, promoting a positive work environment and operational efficiency.',
+      'Ensured compliance with health regulations and maintained high food safety standards.',
+      'Developed financial reports, implemented cost-control measures, and drove sales initiatives.',
+      'Coordinated team-building events and special projects to foster collaboration and communication.',
     ],
   },
 ];
