@@ -29,6 +29,7 @@ import ProjectVanLife from '/public/images/project-vanlife.png';
 import ProjectPulseVote from '/public/images/project-pulseVote.png';
 import ProjectPraisePal from '/public/images/project-praisePal.png';
 import ProjectResumeBuilder from '/public/images/project-resume-builder.png';
+import ProjectJavaEmpMgmnt from '/public/images/project-java-emp-mgmnt.png';
 
 import {
   ContactInfo,
@@ -174,6 +175,15 @@ export const TECHNOLOGIES: TechDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
+  {
+    name: 'Java Swing Employee Management System',
+    description:
+      'A simple employee management system built with Java Swing. It allows you to add, edit, and delete employees. It also allows you to search for employees by social security number.',
+    previewImage: ProjectJavaEmpMgmnt,
+    technologies: ['Java', 'Swing', 'Derby'],
+    url: 'https://github.com/ianfrye0818/JavaSwingEmployeeMgmnt',
+    videoUrl: 'https://youtu.be/hYMeTCeOvKE',
+  },
   {
     name: 'Praise Pal',
     description:
