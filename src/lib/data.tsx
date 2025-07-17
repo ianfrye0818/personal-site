@@ -199,6 +199,7 @@ export const PROJECTS: ProjectDetails[] = [
       'Tanstack Router',
       'Tanstack Query',
     ],
+    url: 'https://praise-pal.ianfrye.dev',
     videoUrl: 'https://youtu.be/72P5Z6azshk?si=CZVnaConIEDOl_7m',
   },
   {
@@ -215,14 +216,14 @@ export const PROJECTS: ProjectDetails[] = [
       'A real-time graphical interface for users to vote. Great for presentations, meetings, or just for fun.',
     previewImage: ProjectPulseVote,
     technologies: ['React', 'Typescript', 'Tailwindcss', 'ShadCnUI', 'Firebase', 'Vercel', 'Clerk'],
-    url: 'https://pulse-vote.com',
+    url: 'https://pulse-vote.ianfrye.dev',
     videoUrl: 'https://youtu.be/yrpDCgRteq0?si=sUL_tLhupU4XezOv',
   },
   {
     name: 'Abode Hunt',
     description:
       'A platform for listing and viewing properties for rent or sale. It also provides a platform for real estate agents to list their properties.',
-    url: 'https://abodehunt.wifrye.net',
+    url: 'https://abodehunt.ianfrye.dev',
     previewImage: ProjectAbodeHunt,
     technologies: [
       'React',
@@ -237,7 +238,7 @@ export const PROJECTS: ProjectDetails[] = [
     name: 'VanLife',
     description:
       'A platform for renting and viewing camping vans. It also provides a platform for van owners to list their vans for rent.',
-    url: 'https://vanlife.wifrye.net',
+    url: 'https://vanlife.ianfrye.dev',
     previewImage: ProjectVanLife,
     technologies: [
       'React',
@@ -254,7 +255,7 @@ export const PROJECTS: ProjectDetails[] = [
     name: 'Quizzical',
     description:
       'A fun online game for testing you knowledge. You can select by number of questions or difficulty level.',
-    url: 'https://quiz.netlify.wifrye.net/',
+    url: 'https://quizzical.ianfrye.dev',
     previewImage: ProjectQuizzical,
     technologies: ['React', 'Typescript'],
   },
